@@ -1,13 +1,14 @@
 import 'package:flutter/material.dart';
+import 'package:projeto_final_portfolio/components/skills_mobile.dart';
 import 'package:projeto_final_portfolio/constants/colors.dart';
 import 'package:projeto_final_portfolio/constants/size.dart';
 import 'package:projeto_final_portfolio/constants/skill_items.dart';
-import 'package:projeto_final_portfolio/widget/drawer_mobile.dart';
-import 'package:projeto_final_portfolio/widget/header_desktop.dart';
-import 'package:projeto_final_portfolio/widget/header_mobile.dart';
-import 'package:projeto_final_portfolio/widget/main_desktop.dart';
-import 'package:projeto_final_portfolio/widget/main_mobile.dart';
-import 'package:projeto_final_portfolio/widget/skiils_desktop.dart';
+import 'package:projeto_final_portfolio/components/drawer_mobile.dart';
+import 'package:projeto_final_portfolio/components/header_desktop.dart';
+import 'package:projeto_final_portfolio/components/header_mobile.dart';
+import 'package:projeto_final_portfolio/components/main_desktop.dart';
+import 'package:projeto_final_portfolio/components/main_mobile.dart';
+import 'package:projeto_final_portfolio/components/skiils_desktop.dart';
 
 class HomePage extends StatefulWidget {
   const HomePage({super.key});
@@ -49,28 +50,33 @@ class _HomePageState extends State<HomePage> {
               const MainDesktop()
             else
               const MainMobile(),
+
             // ==========================SKILLS==========================
             Container(
               width: screenWidth,
               padding: const EdgeInsets.fromLTRB(25, 20, 25, 60),
               color: CustomColor.bgLight1,
-              child: const Column(
+              child: Column(
                 mainAxisSize: MainAxisSize.min,
                 children: [
-                  Text(
+                  const Text(
                     "Habilidades",
                     style: TextStyle(
                         fontSize: 24,
                         fontWeight: FontWeight.bold,
                         color: CustomColor.whitePrimary),
                   ),
-                  SizedBox(
+                  const SizedBox(
                     height: 50,
                   ),
-                  SkillsDesktop(),
+                  if (constraints.maxWidth >= medDesktopWidth)
+                    const SkillsDesktop()
+                  else
+                    const SkillsMobile(),
                 ],
               ),
             ),
+
             // ==========================PROJECTS==========================
             Container(
               height: 500,
