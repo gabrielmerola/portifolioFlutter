@@ -34,7 +34,7 @@ class MainMobile extends StatelessWidget {
             },
             blendMode: BlendMode.srcATop,
             child: Image.asset(
-              "",
+              "assets/fotoPerfil.jpg",
               width: screenWidth,
             ),
           ),

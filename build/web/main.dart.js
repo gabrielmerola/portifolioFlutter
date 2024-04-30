@@ -60862,13 +60862,13 @@ T(a){var s=null
 return A.q8(s,B.Kl,B.aG,!1,s,s,s,s,s,s,s,s,s,s,s,s,s,s,this.c,s,s,s)}}
 A.AA.prototype={
 T(a){var s=null,r=A.cj(a,s,t.w).w.a,q=t.F
-return A.fI(s,A.US(A.a([A.a7F(A.a([B.Kk,B.uq,A.tv(A.a8e(B.uE,new A.RM(),A.a4H(s,s,B.iY,s,s,s,s,s,s,s,s,s,s,s,s,s,s,s,s)),s,250)],q),B.iZ,B.Cv),A.a8x("",r.a/2)],q),B.Cw,B.cx),s,B.vC,s,r.b/1.2,B.yf,s,s)}}
+return A.fI(s,A.US(A.a([A.a7F(A.a([B.Kk,B.uq,A.tv(A.a8e(B.uE,new A.RM(),A.a4H(s,s,B.iY,s,s,s,s,s,s,s,s,s,s,s,s,s,s,s,s)),s,250)],q),B.iZ,B.Cv),A.a8x("assets/fotoPerfil.jpg",r.a/3.5)],q),B.Cw,B.cx),s,B.vC,s,r.b/1.2,B.yf,s,s)}}
 A.RM.prototype={
 $0(){},
 $S:0}
 A.AB.prototype={
 T(a){var s=null,r=A.cj(a,s,t.w).w.a
-return A.fI(s,A.a7F(A.a([new A.D8(new A.RN(),B.vq,A.a8x("",r.a),s),B.G_,B.Kj,B.uq,A.tv(A.a8e(B.uE,new A.RO(),A.a4H(s,s,B.iY,s,s,s,s,s,s,s,s,s,s,s,s,s,s,s,s)),s,190)],t.F),B.f_,B.dK),s,B.vB,s,r.b,B.yj,s,s)}}
+return A.fI(s,A.a7F(A.a([new A.D8(new A.RN(),B.vq,A.a8x("assets/fotoPerfil.jpg",r.a),s),B.G_,B.Kj,B.uq,A.tv(A.a8e(B.uE,new A.RO(),A.a4H(s,s,B.iY,s,s,s,s,s,s,s,s,s,s,s,s,s,s,s,s)),s,190)],t.F),B.f_,B.dK),s,B.vB,s,r.b,B.yj,s,s)}}
 A.RN.prototype={
 $1(a){return new A.kL(B.bV,B.bU,B.bO,A.a([A.ac(153,37,39,52),A.ac(153,37,39,52)],t.bk),null,null).Zx(a)},
 $S:377}
