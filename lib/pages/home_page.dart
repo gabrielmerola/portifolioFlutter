@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
 import 'package:projeto_final_portfolio/constants/colors.dart';
-import 'package:projeto_final_portfolio/constants/nav_items.dart';
 import 'package:projeto_final_portfolio/widget/drawer_mobile.dart';
 import 'package:projeto_final_portfolio/widget/header_desktop.dart';
 import 'package:projeto_final_portfolio/widget/header_mobile.dart';
