@@ -55,7 +55,10 @@ class MainMobile extends StatelessWidget {
             width: 190.0,
             child: ElevatedButton(
               onPressed: () {},
-              child: const Text("Get in Touch"),
+              style: ElevatedButton.styleFrom(
+                backgroundColor: CustomColor.yellowPrimary,
+              ),
+              child: const Text("Entre em Contato"),
             ),
           ),
         ],
