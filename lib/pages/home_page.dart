@@ -1,11 +1,13 @@
 import 'package:flutter/material.dart';
 import 'package:projeto_final_portfolio/constants/colors.dart';
 import 'package:projeto_final_portfolio/constants/size.dart';
+import 'package:projeto_final_portfolio/constants/skill_items.dart';
 import 'package:projeto_final_portfolio/widget/drawer_mobile.dart';
 import 'package:projeto_final_portfolio/widget/header_desktop.dart';
 import 'package:projeto_final_portfolio/widget/header_mobile.dart';
 import 'package:projeto_final_portfolio/widget/main_desktop.dart';
 import 'package:projeto_final_portfolio/widget/main_mobile.dart';
+import 'package:projeto_final_portfolio/widget/skiils_desktop.dart';
 
 class HomePage extends StatefulWidget {
   const HomePage({super.key});
@@ -49,9 +51,25 @@ class _HomePageState extends State<HomePage> {
               const MainMobile(),
             // ==========================SKILLS==========================
             Container(
-              height: 500,
-              width: double.maxFinite,
-              color: Colors.blueGrey,
+              width: screenWidth,
+              padding: const EdgeInsets.fromLTRB(25, 20, 25, 60),
+              color: CustomColor.bgLight1,
+              child: const Column(
+                mainAxisSize: MainAxisSize.min,
+                children: [
+                  Text(
+                    "Habilidades",
+                    style: TextStyle(
+                        fontSize: 24,
+                        fontWeight: FontWeight.bold,
+                        color: CustomColor.whitePrimary),
+                  ),
+                  SizedBox(
+                    height: 50,
+                  ),
+                  SkillsDesktop(),
+                ],
+              ),
             ),
             // ==========================PROJECTS==========================
             Container(

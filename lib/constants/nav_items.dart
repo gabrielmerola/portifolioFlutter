@@ -4,7 +4,7 @@ List<String> navTitles = ["Início", "Habilidades", "Projetos", "Contato"];
 
 List<IconData> navIcons = [
   Icons.home,
-  Icons.android_outlined,
+  Icons.handyman_outlined,
   Icons.back_hand,
   Icons.quick_contacts_mail
 ];
