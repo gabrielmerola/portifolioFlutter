@@ -23,20 +23,9 @@ class MainMobile extends StatelessWidget {
         mainAxisAlignment: MainAxisAlignment.start,
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          ShaderMask(
-            shaderCallback: (bounds) {
-              return LinearGradient(
-                colors: [
-                  CustomColor.scaffoldBg.withOpacity(0.6),
-                  CustomColor.scaffoldBg.withOpacity(0.6)
-                ],
-              ).createShader(bounds);
-            },
-            blendMode: BlendMode.srcATop,
-            child: Image.asset(
-              "assets/fotoPerfil.jpg",
-              width: screenWidth,
-            ),
+          Image.asset(
+            "assets/fotoPerfil.jpg",
+            width: screenWidth,
           ),
           const SizedBox(
             height: 30,
