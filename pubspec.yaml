@@ -60,29 +60,9 @@ flutter:
 
   # To add assets to your application, add an assets section, like this:
   assets:
-    - assets/fotoPerfil.jpg
-    - assets/iconFrontend.png
-    - assets/iconBackend.png
-    - assets/iconDatabase.png
-    - assets/iconInfra.png
-    # IMAGES SKILLS
-    - assets/icons/iconBootstrap.png
-    - assets/icons/iconCSharp.png
-    - assets/icons/iconCSS.png
-    - assets/icons/iconFigma.png
-    - assets/icons/iconFlutter.png
-    - assets/icons/iconHTML.png
-    - assets/icons/iconJava.png
-    - assets/icons/iconJavascript.png
-    - assets/icons/iconMySQL.png
-    - assets/icons/iconNextjs.png
-    - assets/icons/iconPHP.png
-    - assets/icons/iconPostgresql.png
-    - assets/icons/iconPython.png
-    - assets/icons/iconReact.png
-    - assets/icons/iconTailwindcss.png
-    - assets/icons/iconTypescript.png
-    - assets/icons/iconVite.png
+    - assets/
+    - assets/icons/
+    - assets/projects/
   # assets:
   #   - images/a_dot_burr.jpeg
   #   - images/a_dot_ham.jpeg

@@ -1,14 +1,16 @@
 import 'package:flutter/material.dart';
-import 'package:projeto_final_portfolio/components/skills_mobile.dart';
 import 'package:projeto_final_portfolio/constants/colors.dart';
 import 'package:projeto_final_portfolio/constants/size.dart';
-import 'package:projeto_final_portfolio/constants/skill_items.dart';
-import 'package:projeto_final_portfolio/components/drawer_mobile.dart';
-import 'package:projeto_final_portfolio/components/header_desktop.dart';
-import 'package:projeto_final_portfolio/components/header_mobile.dart';
-import 'package:projeto_final_portfolio/components/main_desktop.dart';
-import 'package:projeto_final_portfolio/components/main_mobile.dart';
-import 'package:projeto_final_portfolio/components/skiils_desktop.dart';
+import 'package:projeto_final_portfolio/utils/project_utils.dart';
+import 'package:projeto_final_portfolio/widgets/drawer_mobile.dart';
+import 'package:projeto_final_portfolio/widgets/header_desktop.dart';
+import 'package:projeto_final_portfolio/widgets/header_mobile.dart';
+import 'package:projeto_final_portfolio/widgets/main_desktop.dart';
+import 'package:projeto_final_portfolio/widgets/main_mobile.dart';
+import 'package:projeto_final_portfolio/widgets/project_card.dart';
+import 'package:projeto_final_portfolio/widgets/project_section.dart';
+import 'package:projeto_final_portfolio/widgets/skiils_desktop.dart';
+import 'package:projeto_final_portfolio/widgets/skills_mobile.dart';
 
 class HomePage extends StatefulWidget {
   const HomePage({super.key});
@@ -76,13 +78,11 @@ class _HomePageState extends State<HomePage> {
                 ],
               ),
             ),
-
-            // ==========================PROJECTS==========================
-            Container(
-              height: 500,
-              width: double.maxFinite,
-              color: Colors.blueGrey,
+            const SizedBox(
+              height: 30,
             ),
+            // ==========================PROJECTS==========================
+            const ProjectSection(),
             // ==========================CONTACT==========================
             Container(
               height: 500,
